@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TimeSnap ⏲</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button
+        class="darkmode-toggle"
+        id="toggleThemeBtn"
+        aria-label="Toggle Dark Mode"
+        title="Toggle Dark Mode"
+      >
+        <svg
+          id="iconSun"
+          style="display: none"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="orange"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <circle cx="12" cy="12" r="5" />
+          <path
+            d="M12 1v2m0 18v2m7-9h2M3 12H1m15.36-6.36l1.42 1.42M6.22 17.78l-1.42 1.42m12.02 0l-1.42-1.42M6.22 6.22L4.8 4.8"
+          />
+        </svg>
+        <svg
+          id="iconMoon"
+          style="display: block"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#686fd9"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M21 12.79A9 9 0 0 1 12.21 3a7 7 0 1 0 8.79 9.79z" />
+        </svg>
+      </button>
+      <div class="header">
+        <h1>TimeSnap ⏲</h1>
+        <p>A beautiful and functional stopwatch</p>
+      </div>
+      <div class="stopwatch-wrapper">
+        <div class="stopwatch-display">
+          <div class="stopwatch-display-inner"></div>
+          <div class="time">
+            <div class="main-time">
+              <span id="minutes">00</span>
+              <span class="pulse">:</span>
+              <span id="seconds">00</span>
+            </div>
+            <div class="ms-time">.<span id="centisec">00</span></div>
+          </div>
+        </div>
+        <div class="buttons">
+          <button class="btn" id="startBtn">
+            <span id="startLabel">Start</span>
+          </button>
+          <button class="btn btn-outline" id="resetBtn" disabled>Reset</button>
+          <button class="btn btn-outline" id="lapBtn" disabled>Lap</button>
+        </div>
+        <div class="laps-box">
+          <div class="laps-title">Lap Times</div>
+          <div id="noLaps" class="no-laps">No laps recorded yet</div>
+          <table class="laps-table" id="lapsTable" style="display: none">
+            <thead>
+              <tr>
+                <th>Lap</th>
+                <th>Time</th>
+              </tr>
+            </thead>
+            <tbody id="lapsBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
