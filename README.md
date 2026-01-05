@@ -1,6 +1,6 @@
-# ⏱ TickTock Pro – Advanced Stopwatch Web App
+# TimeSnap⏱ – Advanced Stopwatch Web App
 
-TickTock Pro is a modern, high-precision stopwatch web application with a clean UI, dark mode, lap tracking, and keyboard controls.  
+TimeSnap is a modern, high-precision stopwatch web application with a clean UI, dark mode, lap tracking, and keyboard controls.  
 Built using **pure HTML, CSS, and JavaScript** to demonstrate strong frontend fundamentals.
 
 ---
