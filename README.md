@@ -6,7 +6,7 @@ Built using **pure HTML, CSS, and JavaScript** to demonstrate strong frontend fu
 ---
 
 ## 🚀 Live Demo
-🔗 Add your deployed link here (Netlify / Vercel / GitHub Pages)
+🔗 https://timesnap-stopwatch.netlify.app/
 
 ---
 
@@ -65,7 +65,7 @@ TickTock-Pro/
 **Punit Singh**  
 Frontend Developer (Fresher)
 
-- 🐙 GitHub: https://github.com/your-username  
+- 🐙 GitHub: https://github.com/Punit100643  
 - 🌐 Portfolio: https://your-portfolio-link  
 
 ---
